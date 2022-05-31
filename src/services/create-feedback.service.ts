@@ -41,7 +41,7 @@ export class CreateFeedbackService {
                 `<div style="font-family: san-serif; font-size: 16px; color: #111;">`,
                 `<p>Feedback type: ${type}</p>`,
                 `<p>Comment: ${comment}</p>`,
-                screenshot ? `<image src=${screenshot} />` : null,
+                screenshot ? `<image src=${screenshot} />` : ``,
                 `</div>`
             ].join("\n")
         });
